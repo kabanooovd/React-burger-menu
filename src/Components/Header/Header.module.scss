@@ -1,0 +1,21 @@
+.container {
+    max-height: 100px;
+    width: 100%;
+    background-color: #807f7f;
+
+    .contentWrapper {
+        margin: 0 auto;
+        max-width: 1000px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    @media (max-width: 1030px) {
+        & {
+            .contentWrapper {
+                padding: 0 15px;
+            }
+        }
+    }
+}
